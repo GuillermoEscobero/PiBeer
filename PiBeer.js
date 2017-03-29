@@ -1,5 +1,5 @@
-var W1Temp = require('/usr/local/lib/node_modules/w1temp');
-var Blynk = require('/usr/local/lib/node_modules/blynk-library');
+var W1Temp = require('w1temp');
+var Blynk = require ('blynk-library');
 var AUTH = 'aa46fedd9fcf42e4b7983939647db885';
 var roundedTempInside;
 var roundedTempOutside;

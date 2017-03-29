@@ -1,0 +1,8 @@
+{
+  "name": "PiBeer",
+  "version": "0.0.1",
+  "dependencies": {
+    "blynk-library": "latest",
+    "w1temp": "latest"
+  }
+}
