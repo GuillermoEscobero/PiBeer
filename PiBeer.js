@@ -20,5 +20,6 @@ blynk.on('connect', function () {
     });
 });
 blynk.on('disconnect', function () {
+    console.log('Reconectando')
     blynk.Blynk(AUTH);
 });
