@@ -21,4 +21,4 @@ blynk.on('connect', function () {
 });
 blynk.on('disconnect', function () {
 
-})
+});
