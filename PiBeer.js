@@ -1,11 +1,11 @@
 var W1Temp = require('w1temp');
 var Blynk = require('blynk-library');
 var AUTH = 'aa46fedd9fcf42e4b7983939647db885';
-var v0 = new blynk.VirtualPin(0);
-var v1 = new blynk.VirtualPin(1);
-
 
 var blynk = new Blynk.Blynk(AUTH);
+
+var v0 = new blynk.VirtualPin(0);
+var v1 = new blynk.VirtualPin(1);
 
 blynk.on('connect', function () {
 
