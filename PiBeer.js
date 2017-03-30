@@ -19,3 +19,6 @@ blynk.on('connect', function () {
         }, 1000);
     });
 });
+blynk.on('disconnect', function () {
+
+})
