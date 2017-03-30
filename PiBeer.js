@@ -2,10 +2,9 @@ var W1Temp = require('w1temp');
 
 
 W1Temp.getSensor('28-041692675aff').then(function (sensor) {
-    console.log(sensor.getTemperature());
-    sensor.on('change', function (temp) {
-        console.log('Temp', temp);
-    })
+    setInterval(function () {
+        console.log(sensor.getTemperature());
+    }, 1000);
 });
 
 
